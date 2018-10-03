@@ -15,6 +15,7 @@ a {
 
 .bck_blue {
     background: #0d1831;
+    overflow: hidden;
 }
 
 .bck_lblue {
