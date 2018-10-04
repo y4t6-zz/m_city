@@ -1,10 +1,9 @@
 import firebase from 'firebase/app';
 import 'firebase/app';
 import 'firebase/database';
+import { getFirebaseConfig } from './secrets';
 
-const config = {
-
-};
+const config = getFirebaseConfig();
 
 firebase.initializeApp(config);
 
