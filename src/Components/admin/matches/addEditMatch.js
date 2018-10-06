@@ -249,7 +249,6 @@ class AddEditMatch extends Component {
         }, 2000)
     }
 
-
     submitForm(event){
         event.preventDefault();
 
@@ -294,7 +293,6 @@ class AddEditMatch extends Component {
             })
         }
     }
-
 
     render() {
         return (
